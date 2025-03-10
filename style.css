@@ -369,6 +369,12 @@ p{
         
     }
 }
+@media (max-width:564px){
+    .recomendation__title {
+        padding-left: 0px;
+        text-align: center;
+    }
+}
 @media (max-width:525px){
     .recomendation__group {
         gap: 15px;
@@ -431,6 +437,9 @@ p{
     .back__title{
         font-size: 15px;
     }
+    .recomendation__title {
+        font-size: 20px;
+    }
 }
 @media (max-width:480px){
     .sale__trg2{
@@ -469,10 +478,7 @@ p{
     .sale__date{
         font-size: 15px;
     }
-    .recomendation__title {
-        padding-left: 0px;
-        text-align: center;
-    }
+    
     
 }
 @media (max-width:380px){
@@ -488,10 +494,18 @@ p{
         margin-left: 35%;
     }
     .input__seach{
-        width: 160px;
-        height: 8px;
+        width: 180px;
+        height: 12px;
         font-size: 8px;
     }
+    .back__title{
+        margin-left: 0;
+        padding-left: 10px;
+    }
+    .games__2{
+        padding-bottom: 20px;
+    }
+    
 }
 @media (max-width:350px){
     .sale__trg2{
@@ -515,6 +529,7 @@ p{
         width: 30px;
         height: 30px;
     }
+    
 }
 @media (max-width:340px){
     .sale__game{
