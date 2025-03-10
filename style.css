@@ -1,0 +1,524 @@
+@import url('https://fonts.googleapis.com/css2?family=Oldenburg&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+a{
+    text-decoration: none;
+    color:#BABABA ;
+}
+h1{
+    color:#BABABA ;
+}
+p{
+    color:#BABABA ;
+}
+.body {
+    font-family: "Oldenburg", serif;
+}
+.body__header {
+    background-image: url(images/tile_background.png);
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 45px 25px;
+    justify-content: space-between;
+    position: relative;
+}
+.header__s1 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+}
+.s1__logo {
+    position: absolute;
+    left: 20px;
+    top: -30px;
+    
+}
+.s1__name {
+    color:#BABABA;
+    padding-left: 59px;
+    z-index: 1;
+    font-size: 36px;
+    
+}
+.header__nav {
+    display: flex;
+    gap:100px;
+    font-size: 36px;
+
+}
+.header__burger {
+    background-color: #1D2F30;
+    position: absolute;
+    left: -100%;
+    margin: 0;
+    top: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+
+}
+.burger__href{
+    margin-top: 10px;
+}
+.nav__link {
+}
+.header__acc {
+}
+.acc__register {
+}
+.register__link {
+    font-size: 36px;
+
+}
+.link__foto {
+}
+.acc__balance {
+    color:#BABABA;
+    font-size: 14px;
+}
+.header__moon {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
+}
+
+.body__main {
+}
+
+
+.main__sale{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(images/listia\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 150px;
+}
+
+.header__real-burger{
+    display: none;
+}
+.sale__logo {
+    position: absolute;
+    left:-40px;
+    top: -25px;
+    z-index: 0;
+
+}
+
+.sale__box2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 40px 0;
+
+}
+.sale__title {
+    font-size: 60px;
+    position: relative;
+    z-index: 1;
+}
+
+.sale__box3{
+    position: relative;
+}
+
+.sale__date {
+    
+}
+
+
+.sale__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.sale__trg {
+    margin: 0px 30px;
+}
+.sale__trg2{
+    z-index: -1;
+    position: absolute; 
+    right: 450px;
+}
+.sale__trg3{
+    z-index: -1;
+    position: absolute;
+    right: 40px;
+}
+
+.sale__game {
+}
+
+
+.sale__price {
+    text-align: right;
+    color:#75FF68;
+    
+}
+.body__second {
+    background-color: #1D2F30;
+
+}
+.input__seach{
+    width: 300px;
+    height: 17px;
+    margin-right: 7%;
+    background-color: #384F3B;
+}
+.tt {
+    display: flex;
+    align-items: center;
+    margin-left: 42%; 
+    margin-bottom: 1%;
+    
+}
+.search{
+    position: absolute;
+    height: 17px;
+    margin-left: 286px;
+}
+.gamaes {
+    
+}
+.games__1 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+.games__2 {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+.main__third {
+
+}
+.third__semi-section {
+    width: 100%;
+    height: 150px;
+    background-color:#45645A;
+}
+.main__recomendation {
+    background-color: #1D2F30 ;
+}
+.recomendation__title {
+    color:#D6F6D7;
+    padding-left: 200px;
+    padding-top: 100px;
+    margin-bottom: 150px;
+}
+.recomendation__group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.group__polygon {
+
+}
+.group__games-info {
+    
+}
+.games-info__img {
+    
+    
+}
+.games-info__price {
+}
+.games-info__name {
+    margin-bottom: 200px;
+}
+.body__back{
+    background-color: #1D2F30;
+    height:200px;
+}
+.back__title {
+    padding-left: 30px;
+    padding-top: 70px;
+    font-size: 25px;
+}
+.back__refresh {
+    display: flex;
+    justify-content: center;
+}
+.back__sponsored {
+    font-size: 13px;
+    text-align: right;
+}
+@media (max-width:1500px){
+    .games__img{
+        width: 35%;
+        height: 35%;
+    }
+    .tt{
+        margin-left: 39%;
+    }
+}
+@media (max-width:1300px) {
+    .recomendation__title {
+        padding-left: 100px;
+        padding-top: 50px;
+        margin-bottom: 100px;
+    }
+}
+@media (max-width:1150px) {
+    .header__nav{
+        gap :40px;
+        font-size: 24px;
+    }
+    .register__link{
+        font-size: 24px;
+    }
+    .s1__name{
+        font-size: 24px;
+    }
+    .recomendation__title {
+        margin-bottom: 0px;
+    }
+    
+    .group__polygon{
+        height: 7%;
+        width: 7%; 
+    }
+    .games-info__img{
+        height: 80%;
+        width: 80%;
+    }
+    .group__games-info{
+        padding-top: 100px;
+        padding-left: 100px;
+        gap: 0;
+    }
+    .games-info__name {
+        margin-bottom: 0px;
+    }
+}
+@media (max-width:950px){
+    .tt{
+        margin-left: 34%;
+    }
+}
+@media (max-width:900px){
+    .games-info__name {
+        font-size: 10px;
+    }
+    .games-info__price{
+        font-size: 15px;
+    }
+    .box4{
+        width: 100%;
+    }
+    .sale__game{
+        width:100%;
+    }
+    .sale__box2{
+        align-items: flex-end;
+    }
+    .header__real-burger{
+        display: block;
+    }
+    .header__burger{
+        z-index: 2;
+    }
+    .header__nav{
+        display: none;
+    }
+    .s1__logo{
+        display: none;
+    }
+    .s1__name{
+        padding-left:15px;
+    }
+    .back__title {
+        padding-bottom: 25px;
+    }
+    .back__refresh {
+        padding-bottom: 25px;
+    }
+    .back__sponsored {
+        padding-bottom: 25px;
+    }
+}
+
+
+@media (max-width:680px){
+    .third__semi-section {
+        height: 7vh;
+    }
+    .tt{
+        margin-left: 26%;
+    }
+    .sale__title{
+        font-size: 45px;
+    }
+    .group__games-info{
+        padding-top: 50px;
+        padding-left: 50px;
+        
+    }
+}
+@media (max-width:525px){
+    .recomendation__group {
+        gap: 15px;
+    }
+    .games-info__img {
+        height: 100%;
+        width: 100%;
+    }
+    .group__games-info{
+        padding-left: 0px;
+        width: 60%;
+    }
+    .tt{
+        width:25px;
+        margin-left: 38%;
+    }
+    .input__seach{
+        height: 10px;
+        font-size: 10px;
+    }
+    .box4{
+        text-align: center;
+        width: 137px
+    }
+    .sale__game{
+        width: 100%;
+        text-align: center;
+    }
+    .sale__trg{
+        display: none;
+    }
+    .sale__trg2{
+        z-index: +1;
+    }
+    .sale__trg3{
+        z-index: +1;
+    }
+    .sale__title{
+        font-size: 35px;
+    }
+    .search{
+        display: none;
+        z-index: -2;
+    }
+    
+}
+@media (max-width:500px){
+    .sale__trg2{
+        right: 425px;
+    } 
+    .back__sponsored {
+        padding-bottom: 0px;
+        padding-top: 10px;
+        font-size: 10px;
+    }
+    .back__refresh {
+        padding-bottom: 0px;
+        font-size: 10px;
+    }
+    .back__title{
+        font-size: 15px;
+    }
+}
+@media (max-width:480px){
+    .sale__trg2{
+        right: 405px;
+    } 
+
+}
+@media (max-width:460px){
+    .sale__trg2{
+        right: 385px;
+    } 
+}
+@media (max-width:440px){
+    .sale__trg2{
+        right: 365px;
+    } 
+}
+@media (max-width:420px){
+    .sale__trg2{
+        right: 345px;
+    } 
+}
+@media (max-width:400px){
+    .sale__title{
+        font-size: 25px;
+    }
+    .sale__trg2{
+        right: 295px;
+    }
+    .sale__trg3{
+        left: 295px;
+    }
+    .sale__price{
+        font-size: 10px;
+    }
+    .sale__date{
+        font-size: 15px;
+    }
+    .recomendation__title {
+        padding-left: 0px;
+        text-align: center;
+    }
+    
+}
+@media (max-width:380px){
+    
+    .sale__trg2{
+        right: 265px;
+    } 
+    .sale__trg3{
+        left: 265px;
+    }
+    .tt{
+        width:15px;
+        margin-left: 35%;
+    }
+    .input__seach{
+        width: 160px;
+        height: 8px;
+        font-size: 8px;
+    }
+}
+@media (max-width:350px){
+    .sale__trg2{
+        right: 235px;
+        width: 20px;
+    } 
+    .sale__trg3{
+        left: 235px;
+        width: 20px;
+    }
+    .s1__name{
+        font-size: 20px;
+    }
+    .register__link{
+        font-size: 20px;
+    }
+    .acc__balance{
+        font-size: 10px;
+    }
+    .link__foto{
+        width: 30px;
+        height: 30px;
+    }
+}
+@media (max-width:340px){
+    .sale__game{
+        height: 65px;
+        width: 130px;
+    }
+}
